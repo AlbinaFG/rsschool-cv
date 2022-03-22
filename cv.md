@@ -48,7 +48,7 @@ memoryCards.forEach((card) => {
   - Economics, accounting and control
 - Innopolis University
   - Frontend development fundamentals
-    - The Rolling Scopes School
+- The Rolling Scopes School
   - JS/FE Pre-school 2022 (JAVASCRIPT)
 
 ---
