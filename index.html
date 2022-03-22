@@ -5,9 +5,160 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="./assets/favic.ico">
    <title>CV</title>
 </head>
 <body>
+   <header class="header">
+      <div class="header-navigation">
+         <div class="header-navigation title">
+            <h3>Junior front-end developer</h3>
+         </div>
+        <nav class="header-navigation nav">
+          <ul class="navigation-list">          
+            <li>
+               <a href="#contacts" class="item-link">Contacts</a>
+            </li>
+            <li>
+               <a href="#about" class="item-link">About Me</a>
+            </li>
+            <li>
+               <a href="#skills" class="item-link">Skills</a>
+            </li>     
+            <li>
+               <a href="#education" class="item-link">Education</a>
+            </li>     
+            <li>
+               <a href="#code" class="item-link">Sample code</a>
+            </li>
+            <li>
+               <a href="#languages" class="item-link">Knowledge of languages</a>
+            </li>
+            <li>
+               <a href="#projects" class="item-link">Projects</a>
+            </li>
+          </ul>
+        </nav>
+        
+      </div>
+   </header>
+
+   <main class="main">
+    <div class="container">
+     <div class="main-profile">
+       <img class="img" src="./assets/img/1.jpeg" alt="fhoto">
+       <div class="profile-contacts" id="contacts">
+          <h1>Gimaeva Albina</h1>
+          <h2>Contacts</h2>
+          <ul>
+             <li>E-mail: gimaeva.af@mail.ru</li>
+             <li>GitHub: AlbinaFG</li>
+             <li>Telegram: @AlbinaFG</li>
+             <li>Discord: Gimaeva Albina (AlbinaFG)#1480</li>
+          </ul>
+        </div>
+     </div>
+
+        <div class="main-description about" id="about">
+           <h2>About Me</h2>
+           <p>I am a beginner frontend developer. I am ready to work hard and study. My goals are to gain knowledge in the field of interface development and get a job. I am currently continuing my studies and would like to combine it with an internship.</p>
+        </div>
+
+        <div class ="main-description skills" id="skills">
+         <h2>Skills</h2>
+         <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>React</li>
+            <li>VS Code</li>
+         </ul>
+        </div>
+       <div class="main-description education" id="education">
+         <h2>Education</h2>
+         <ul>
+            <li>
+               Ufa State Institute of Service
+               <ul>
+                  <li>Finance and credit</li>
+               </ul>
+            </li>
+            <li>
+               Sterlitamak College of Technology
+               <ul>
+                  <li>Economics, accounting and control</li>
+               </ul>
+            </li>
+            <li>
+               Innopolis University
+               <ul>
+                  <li>Frontend development fundamentals</li>
+               </ul>
+            </li> 
+            <li>
+               The Rolling Scopes School
+               <ul>
+                  <li>JS/FE Pre-school 2022 (JAVASCRIPT)</li>
+               </ul>
+            </li> 
+         </ul>
+      </div>
+
+      <div class ="main-description code" id="code">
+       <h2>Sample code</h2>
+       <pre>
+         memoryCards.forEach((card) => {
+            card.addEventListener("click", flipCard);
+            const randomCard = Math.floor(Math.random() * 16);
+            card.style.order = randomCard;
+          });
+       </pre>
+      </div>
+      <div class ="main-description languages" id="languages">
+         <h2>Knowledge of languages</h2>
+         <ol>
+            <li>Russian - Native</li>
+            <li>English - A1 - Beginner</li>
+            <li>Tatar - C2 - Perfectly</li>
+         </ol>
+      </div>
+      <div class="main-description projects" id="projects">
+         <h2>Projects</h2>
+         <ol>
+            <li>
+               <a href="https://rolling-scopes-school.github.io/albinafg-JSFEPRESCHOOL/movie-app/">Movie app</a>
+            </li>
+            <li>
+               <a href="https://rolling-scopes-school.github.io/albinafg-JSFEPRESCHOOL/portfolio/">Portfolio website</a>
+            </li>
+            <li>
+               <a href="https://online-store-inno.herokuapp.com/">Online store on react</a>
+            </li>
+         </ol>
+
+
+      </div>
+
+   
+   </div>
+   </main>
+   <footer class="footer">
+      <div class="footer-container">
+            <div>
+               <span>© 2022</span>
+  
+            <a class="link" href="https://github.com/AlbinaFG">AlbinaFG</a>
+            </div>
+            
+            <a href="https://rs.school/js/">
+               <img width="50" height="50" src="assets/rs_school_js.svg" alt="Rsschool-js">
+            </a>
+
+      </div>
+
+  </footer>
+      
    
 </body>
 </html>
